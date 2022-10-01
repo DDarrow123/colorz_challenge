@@ -4,6 +4,7 @@
 
 .l-main-content {
   border-top: #EAEAEA;
+  overflow: hidden;
 }
 
 .lead-content {
@@ -57,8 +58,78 @@
   background-image: url("lead-image.jpg");
 }
 
+.sticker-icon-wrapper {
+  position: relative;
+  transform: rotate(29.91deg);
+}
+
 .sticker-icon {
   position: absolute;
+  right: 48px;
+  bottom: 36px;
+}
+
+.sticker-text {
+  position: absolute;
+  width: 150px;
+  right: 74px;
+  bottom: 92px;
+}
+
+.text-offer {
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  color: #FFF;
+}
+
+.text-price {
+  font-family: Helvetica Neue;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: center;
+  color: #FFF;
+}
+
+.text-second-price {
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFF;
+  white-space: nowrap;
+}
+
+.buy-wrapper {
+  margin-top: 60px;
+}
+
+.buy-desc {
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 30px;
+  width: auto;
+}
+@media screen and (min-width: 992px) {
+  .buy-desc {
+    width: 813px;
+  }
+}
+
+.buy-now.buy-button {
+  height: 58px;
+  width: 140px;
+  left: 97.5px;
+  top: 336px;
+  padding: 18px 30px 20px 30px;
+  border: none;
+  margin-bottom: 60px;
 }
 
 .l-masthead {
@@ -91,7 +162,6 @@
 .buy-button {
   height: 46px;
   width: 77px;
-  left: 1255px;
   top: 30px;
   border-radius: 150px;
   padding: 10px 18px 12px 18px;
@@ -103,4 +173,9 @@
 .button-text {
   color: #FFF;
   font: 16px;
+}
+
+.carousel {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
 }/*# sourceMappingURL=core.css.map */
