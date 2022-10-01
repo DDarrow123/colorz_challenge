@@ -53,6 +53,10 @@
   font-weight: 500;
   line-height: 35px;
 }
+.caption.monitor-caption {
+  text-align: left;
+  margin-bottom: 30px;
+}
 
 .lead-image {
   background-image: url("lead-image.jpg");
@@ -130,6 +134,40 @@
   padding: 18px 30px 20px 30px;
   border: none;
   margin-bottom: 60px;
+}
+
+.monitor {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.monitor-image {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+@media screen and (min-width: 992px) {
+  .monitor-image {
+    width: auto;
+    margin-left: 0;
+  }
+}
+
+.monitor-text {
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+.lock {
+  margin: 30px 0;
+}
+
+.subtext {
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .l-masthead {
