@@ -1,6 +1,13 @@
+.l-masthead {
+ position: absolute;
+ left: 0;
+ right: 0;
+}
+
 .masthead-nav-wrapper {
    justify-content: center;
    padding-left: 0;
+   margin-bottom: 0;
 }
 
 .masthead-link {

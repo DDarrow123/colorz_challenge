@@ -2,24 +2,27 @@
     <section class="container">
         <section class="row">
             <section class="l-content">
-                <div>
-                    <div>
-                      <span>Du JAMAIS VU (enfin jusqu'à maintenant, du coup)</span>
-                      <h5>Avec Vision.R, travaillez au bureau... comme si vous étiez encore à la maison !</h5>
-                    </div>
-                    <div>
-                       <span>Offre speciale</span>
-                       <span>799,99€</span>
-                       <span>*au lieu de 1.499,99€</span>
-                    </div>
-                    <div>
-                      <img src="sticker-icon.svg"/>    
-                    </div>
-                    <paragraph>Vision.R with a grand “R” like in the mot “Revolution” !
-                        You are afraid to feel déstabilized with the futur retour au bureau ? 
-                        With Vision.R, be rassuré.e.s ! Get instant, real time, high resolution, social videocall and feel comme à la maison. Bref, get ready to faire un carton !</paragraph>
-                   <button>But it now</button>     
+              <div class="lead-image-wrapper">
+                <%- include('./masthead.ejs') %>
+                <div class="lead-content d-flex flex-column align-items-center justify-content-center">
+                  <span class="subtitle">Du JAMAIS VU (enfin jusqu'à maintenant, du coup)</span>
+                  <h5 class="caption">Avec Vision.R, travaillez au bureau... comme si vous étiez encore à la maison !</h5>
                 </div>
+                  <img class="lead-image-mobile d-md-none" src="lead-image-mobile.jpg"/>
+                  <img class="lead-image d-none d-md-block" src="lead-image-desktop.jpg"/>
+              </div>
+              <div>
+                <span>Offre speciale</span>
+                <span>799,99€</span>
+                <span>*au lieu de 1.499,99€</span>
+              </div>
+              <div class="sticker-icon">
+                <img src="sticker-icon.svg"/>    
+              </div>
+                <paragraph>Vision.R with a grand “R” like in the mot “Revolution” !
+                    You are afraid to feel déstabilized with the futur retour au bureau ? 
+                    With Vision.R, be rassuré.e.s ! Get instant, real time, high resolution, social videocall and feel comme à la maison. Bref, get ready to faire un carton !</paragraph>
+               <button>But it now</button>     
                 <div class="">
                     <%- include('../partials/carousel.ejs') %>
                     <div>
