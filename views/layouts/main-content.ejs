@@ -1,5 +1,5 @@
 <section class="l-main-content">
-    <section class="container">
+    <section class="container-fluid">
         <section class="row">
             <section class="l-content">
               <div class="lead-image-wrapper">
@@ -40,38 +40,22 @@
                 <div class="monitor-image-wrapper">
                   <img class="monitor-image" src="monitor-image.jpg"/>
                 </div>
-                <div class="monitor-text d-flex flex-column align-items-start justify-content-center">
-                    <div class="lock">
-                      <img src="lock-icon.svg"/>
+                <div class="monitor-text d-flex flex-column justify-content-center flex-grow-1">
+                    <div class="monitor-text-wrapper">
+                        <div class="lock">
+                        <img src="lock-icon.svg"/>
+                        </div>
+                        <!-- <Mobile only> -->
+                        <h5 class="caption monitor-caption">The pudique (or je suis en pyjama et j'assume pas) effect</h5>
+                        <paragraph class="subtext d-none d-sm-block d-md-none">Start from zero, choose your background and create your new life while impressing the collègues.</paragraph>
+                        <!-- <Desktop only> -->
+                        <paragraph class="subtext d-none d-md-block">With our no camera mode, you can be wherever you want and be en pyjama in totale discretion with professionnalisme.</paragraph> 
                     </div>
-                    <!-- <div>Mobile only</div> -->
-                    <h5 class="caption monitor-caption">The pudique (or je suis en pyjama et j'assume pas) effect</h5>
-                    <paragraph class="subtext">Start from zero, choose your background and create your new life while impressing the collègues.</paragraph>
-                    <!-- <div>Desktop only</div> -->
-                    <paragraph class="subtext d-none d-md-block">With our no camera mode, you can be wherever you want and be en pyjama in totale discretion with professionnalisme.</paragraph> 
                 </div>
               </div>
-              <div>
-                        <div>Some indispensables accessories to optimize your experience</div>
-                        <div>
-                            <div>
-                                <img/>
-                                <div>The funny filter kit (D'jeuns friendly)</div>
-                                <div>199,00 €</div>
-                            </div>
-                            <div>
-                                <img/>
-                                <div>Screen Camera off</div>
-                                <!-- <div>Mobile only</div> -->
-                                <div>Screen Camera off si texte long</div> 
-                                <div>229,00 €</div>
-                            </div>
-                            <div>
-                                <img/>
-                                <div>The Charentaiz (Yeuv Friendly)</div>
-                                <div>349,95 €</div>
-                            </div> 
-                        </div>
+              <div class="slideshow">
+                <div class="caption">Some indispensables accessories to optimize your experience</div>
+                <%- include('../partials/slideshow.ejs') %>
               </div>
                 <!-- </div> -->
             </section>
