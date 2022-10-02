@@ -1,6 +1,6 @@
 .l-footer {
   padding: 0 36px 60px 36px;
-  background-color: #f3f3f3;
+  background-color: $base-color-gray;
   @media screen and (min-width: 992px) {
     padding: 0 36px 60px 104px;
   }
@@ -10,8 +10,8 @@
   margin: 60px 0 30px 0;
 
   & img {
-    height: 30.010000228881836px;
-    width: 132.67176818847656px;
+    height: 30.01px;
+    width: 132.67px;
 
     @media screen and (min-width: 992px) {
       height: 42px;

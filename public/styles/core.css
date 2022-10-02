@@ -58,7 +58,7 @@
 }
 
 .l-main-content {
-  border-top: #eaeaea;
+  border-top: $base-color-lt-gray;
   overflow: hidden;
 }
 

@@ -1,5 +1,5 @@
 .l-main-content {
-  border-top: #eaeaea;
+  border-top: $base-color-lt-gray;
   overflow: hidden;
 }
 
@@ -36,8 +36,7 @@
 }
 
 .subtitle {
-  color: #f0380f;
-  font-family: Helvetica Neue;
+  color: $base-color-red;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -49,7 +48,6 @@
 
 .caption {
   text-align: center;
-  // font-family: Helvetica Neue;
   font-size: 30px;
   font-weight: 500;
   line-height: 35px;
@@ -107,28 +105,25 @@
 }
 
 .text-offer {
-  font-family: Helvetica Neue;
   font-size: 22px;
   font-weight: 500;
   line-height: 34px;
-  color: #fff;
+  color: $base-color-white;
 }
 
 .text-price {
-  font-family: Helvetica Neue;
   font-size: 30px;
   font-weight: 500;
   line-height: 35px;
   text-align: center;
-  color: #fff;
+  color: $base-color-white;
 }
 
 .text-second-price {
-  font-family: Helvetica Neue;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #fff;
+  color: $base-color-white;
   white-space: nowrap;
 }
 
@@ -137,7 +132,6 @@
 }
 
 .desc {
-  font-family: Helvetica Neue;
   font-size: 22px;
   font-weight: 500;
   line-height: 34px;
@@ -213,7 +207,6 @@
 }
 
 .subtext {
-  font-family: Helvetica Neue;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;

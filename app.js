@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const path = require("path");
 
-// Run nodemon server/app.js from terminal to develop locally
+// Run nodemon app.js from terminal to develop locally
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");

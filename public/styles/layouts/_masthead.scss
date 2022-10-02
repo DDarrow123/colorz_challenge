@@ -33,12 +33,12 @@
   top: 30px;
   border-radius: 150px;
   padding: 10px 18px 12px 18px;
-  background: #f0380f;
+  background: $base-color-red;
   padding: 0;
   border: none;
 }
 
 .button-text {
-  color: #fff;
+  color: $base-color-white;
   font: 16px;
 }
