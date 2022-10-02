@@ -1,66 +1,91 @@
 <section class="l-main-content">
-    <section class="container-fluid">
-        <section class="row">
-            <section class="l-content">
-              <div class="lead-image-wrapper">
-                <%- include('./masthead.ejs') %>
-                <div class="lead-content d-flex flex-column align-items-center justify-content-center">
-                  <span class="subtitle">Du JAMAIS VU (enfin jusqu'à maintenant, du coup)</span>
-                  <h5 class="caption">Avec Vision.R, travaillez au bureau... comme si vous étiez encore à la maison !</h5>
-                </div>
-                <div class="lead-image-inner-wrapper">
-                    <img class="lead-image-mobile d-md-none" src="lead-image-mobile.jpg"/>
-                    <img class="lead-image d-none d-md-block" src="lead-image-desktop.jpg"/>
-                    <div class="sticker-icon-wrapper">
-                      <img class="sticker-icon" src="sticker-icon.svg"/>    
-                      <div class="sticker-text d-flex flex-column align-items-center">
-                        <span class="text-offer">Offre speciale</span>
-                 
-                        <span class="text-price">799,99€</span>
-                      
-                        <span class="text-second-price">*au lieu de 1.499,99€</span>
-                      </div>
-                    </div>
-                </div>
+  <section class="container-fluid">
+    <section class="row">
+      <section class="l-content">
+        <div class="lead-image-wrapper">
+          <%- include('./masthead.ejs') %>
+          <div
+            class="lead-content d-flex flex-column align-items-center justify-content-center"
+          >
+            <span class="subtitle"
+              >Du JAMAIS VU (enfin jusqu'à maintenant, du coup)</span
+            >
+            <h5 class="caption">
+              Avec Vision.R, travaillez au bureau... comme si vous étiez encore
+              à la maison !
+            </h5>
+          </div>
+          <div class="lead-image-inner-wrapper">
+            <img
+              class="lead-image-mobile d-md-none"
+              src="lead-image-mobile.jpg"
+            />
+            <img
+              class="lead-image d-none d-md-block"
+              src="lead-image-desktop.jpg"
+            />
+            <div class="sticker-icon-wrapper">
+              <img class="sticker-icon" src="sticker-icon.svg" />
+              <div class="sticker-text d-flex flex-column align-items-center">
+                <span class="text-offer">Offre speciale</span>
+
+                <span class="text-price">799,99€</span>
+
+                <span class="text-second-price">*au lieu de 1.499,99€</span>
               </div>
-              <div class="buy-wrapper d-flex flex-column align-items-center justify-content-center">
-                <div class="desc">
-                  Vision.R with a grand "R" like in the mot "Revolution" !
-                  You are afraid to feel déstabilized with the futur retour au bureau ? 
-                  With Vision.R, be rassuré.e.s ! Get instant, real time, high resolution, social videocall and feel comme à la maison. Bref, get ready to faire un carton !
-                </div>
-                <button class="buy-button buy-now">
-                  <span class="button-text">
-                    Buy it now
-                  </span>
-                </button>
-              </div>     
-              <div class="carousel">
-                <%- include('../partials/carousel.ejs') %>
-              </div>  
-              <div class="monitor d-lg-flex">
-                <div class="monitor-image-wrapper">
-                  <img class="monitor-image" src="monitor-image.jpg"/>
-                </div>
-                <div class="monitor-text d-flex flex-column justify-content-center flex-grow-1">
-                    <div class="monitor-text-wrapper">
-                        <div class="lock">
-                        <img src="lock-icon.svg"/>
-                        </div>
-                        <!-- <Mobile only> -->
-                        <h5 class="caption monitor-caption">The pudique (or je suis en pyjama et j'assume pas) effect</h5>
-                        <paragraph class="subtext d-sm-block d-md-none">Start from zero, choose your background and create your new life while impressing the collègues.</paragraph>
-                        <!-- <Desktop only> -->
-                        <paragraph class="subtext d-none d-md-block">With our no camera mode, you can be wherever you want and be en pyjama in totale discretion with professionnalisme.</paragraph> 
-                    </div>
-                </div>
-              </div>
-              <div class="slideshow">
-                <div class="caption">Some indispensables accessories to optimize your experience</div>
-                <%- include('../partials/slideshow.ejs') %>
             </div>
-                <!-- </div> -->
-            </section>
-        </section>
+          </div>
+        </div>
+        <div
+          class="buy-wrapper d-flex flex-column align-items-center justify-content-center"
+        >
+          <div class="desc">
+            Vision.R with a grand "R" like in the mot "Revolution" ! You are
+            afraid to feel déstabilized with the futur retour au bureau ? With
+            Vision.R, be rassuré.e.s ! Get instant, real time, high resolution,
+            social videocall and feel comme à la maison. Bref, get ready to
+            faire un carton !
+          </div>
+          <%- include('../partials/popin.ejs') %>
+        </div>
+        <div class="carousel">
+          <%- include('../partials/carousel.ejs') %>
+        </div>
+        <div class="monitor d-lg-flex">
+          <div class="monitor-image-wrapper">
+            <img class="monitor-image" src="monitor-image.jpg" />
+          </div>
+          <div
+            class="monitor-text d-flex flex-column justify-content-center flex-grow-1"
+          >
+            <div class="monitor-text-wrapper">
+              <div class="lock">
+                <img src="lock-icon.svg" />
+              </div>
+              <!-- <Mobile only> -->
+              <h5 class="caption monitor-caption">
+                The pudique (or je suis en pyjama et j'assume pas) effect
+              </h5>
+              <paragraph class="subtext d-sm-block d-md-none"
+                >Start from zero, choose your background and create your new
+                life while impressing the collègues.</paragraph
+              >
+              <!-- <Desktop only> -->
+              <paragraph class="subtext d-none d-md-block"
+                >With our no camera mode, you can be wherever you want and be en
+                pyjama in totale discretion with professionnalisme.</paragraph
+              >
+            </div>
+          </div>
+        </div>
+        <div class="slideshow">
+          <div class="caption">
+            Some indispensables accessories to optimize your experience
+          </div>
+          <%- include('../partials/slideshow.ejs') %>
+        </div>
+        <!-- </div> -->
+      </section>
     </section>
+  </section>
 </section>

@@ -1,59 +1,57 @@
 .l-footer {
-    padding: 0 36px 60px 36px;
-    background-color: #F3F3F3;
-    ;
-
-    @media screen and (min-width: 992px) {
-        padding: 0 36px 60px 104px;
-    }
+  padding: 0 36px 60px 36px;
+  background-color: #f3f3f3;
+  @media screen and (min-width: 992px) {
+    padding: 0 36px 60px 104px;
+  }
 }
 
 .company-logo {
-    margin: 60px 0 30px 0;
+  margin: 60px 0 30px 0;
 
-    & img {
-     height: 30.010000228881836px;
-     width: 132.67176818847656px;
-     
-     @media screen and (min-width: 992px) {
-        height: 42px;
-        width: 189px;
-      }
-    }
+  & img {
+    height: 30.010000228881836px;
+    width: 132.67176818847656px;
 
     @media screen and (min-width: 992px) {
-        margin: 90px 0 30px 0;
+      height: 42px;
+      width: 189px;
     }
+  }
+
+  @media screen and (min-width: 992px) {
+    margin: 90px 0 30px 0;
+  }
 }
 
 .desc {
-    &.footer-desc {
-        margin-bottom: 10px;
+  &.footer-desc {
+    margin-bottom: 10px;
 
-        @media screen and (min-width: 992px) {
-            width: auto;
-        }
+    @media screen and (min-width: 992px) {
+      width: auto;
     }
+  }
 }
 
 .footer-item {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 
-    @media screen and (min-width: 992px) {
-      padding-right: 145px;
-    }
+  @media screen and (min-width: 992px) {
+    padding-right: 145px;
+  }
 }
 
 .subtext {
-    &.subtext-footer {
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 24px;
-    }
+  &.subtext-footer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
 }
 
 .footer-logo {
-    @media screen and (min-width: 992px) {
-      margin: 0 0 0 auto;
-    }
+  @media screen and (min-width: 992px) {
+    margin: 0 0 0 auto;
+  }
 }

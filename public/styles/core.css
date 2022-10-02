@@ -1,6 +1,6 @@
 .l-footer {
   padding: 0 36px 60px 36px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 @media screen and (min-width: 992px) {
   .l-footer {
@@ -58,7 +58,7 @@
 }
 
 .l-main-content {
-  border-top: #EAEAEA;
+  border-top: #eaeaea;
   overflow: hidden;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .subtitle {
-  color: #F0380F;
+  color: #f0380f;
   font-family: Helvetica Neue;
   font-size: 16px;
   font-weight: 400;
@@ -174,8 +174,7 @@
   font-size: 22px;
   font-weight: 500;
   line-height: 34px;
-  letter-spacing: 0em;
-  color: #FFF;
+  color: #fff;
 }
 
 .text-price {
@@ -184,7 +183,7 @@
   font-weight: 500;
   line-height: 35px;
   text-align: center;
-  color: #FFF;
+  color: #fff;
 }
 
 .text-second-price {
@@ -192,7 +191,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #FFF;
+  color: #fff;
   white-space: nowrap;
 }
 
@@ -295,6 +294,7 @@
   position: absolute;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .masthead-nav-wrapper {
@@ -324,19 +324,33 @@
   top: 30px;
   border-radius: 150px;
   padding: 10px 18px 12px 18px;
-  background: #F0380F;
+  background: #f0380f;
   padding: 0;
   border: none;
 }
 
 .button-text {
-  color: #FFF;
+  color: #fff;
   font: 16px;
 }
 
 .carousel {
   width: 100vw;
   margin-left: calc(50% - 50vw);
+}
+
+.carousel-indicators [data-bs-target].carousel-button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  opacity: 1;
+  background-color: #fff;
+}
+
+.carousel-indicators .carousel-button.active {
+  background-color: #000;
 }
 
 .slideshow {
@@ -365,7 +379,7 @@
 .slideshow-product {
   width: 285px;
   height: 368px;
-  border: 1px solid #F3F3F3;
+  border: 1px solid #f3f3f3;
   border-radius: 5px;
   margin-right: 20px;
 }
@@ -407,5 +421,60 @@
 @media screen and (min-width: 992px) {
   .subtext.slideshow-subtext {
     margin: 14px 0 35px 0;
+  }
+}
+
+.modal {
+  border-radius: 4px;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-icon {
+  height: 73px;
+  width: 73px;
+}
+
+.modal-intro {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  color: #18181b;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 992px) {
+  .modal-intro {
+    font-size: 52px;
+    line-height: 60px;
+  }
+}
+
+.text-offer.modal-para {
+  text-align: center;
+  color: #18181b;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.text-offer.modal-para:last-child {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 992px) {
+  .text-offer.modal-para {
+    font-size: 22px;
+    line-height: 34px;
+  }
+}
+
+.modal-body {
+  padding: 0 53px 40px 53px;
+}
+@media screen and (min-width: 992px) {
+  .modal-body {
+    padding: 80px 106px;
   }
 }/*# sourceMappingURL=core.css.map */

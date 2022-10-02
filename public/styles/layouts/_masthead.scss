@@ -1,29 +1,30 @@
 .l-masthead {
- position: absolute;
- left: 0;
- right: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .masthead-nav-wrapper {
-   justify-content: center;
-   padding-left: 0;
-   margin-bottom: 0;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 .masthead-link {
-    list-style: none;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    padding-right: 30px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 30px;
 
-    &.home-link {
-        font-size: 24px;
-        line-height: 29.3px;
-        font-weight: 500;
-        text-align: center;
-        padding: 30px 0;
-    }
+  &.home-link {
+    font-size: 24px;
+    line-height: 29.3px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 0;
+  }
 }
 
 .buy-button {
@@ -32,13 +33,12 @@
   top: 30px;
   border-radius: 150px;
   padding: 10px 18px 12px 18px;
-  background: #F0380F;
+  background: #f0380f;
   padding: 0;
   border: none;
 }
 
 .button-text {
-  color: #FFF;
+  color: #fff;
   font: 16px;
 }
-
