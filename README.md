@@ -12,6 +12,6 @@ Un test d'intégration pour l'agence Colorz.
 
 ## Further Reading
 
-J'espère que vous appécierez ce projet.
+:wave: J'espère que vous appécierez ce projet.
 
 Merci!
