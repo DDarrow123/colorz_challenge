@@ -12,8 +12,8 @@
   margin: 60px 0 30px 0;
 }
 .company-logo img {
-  height: 30.0100002289px;
-  width: 132.6717681885px;
+  height: 30.01px;
+  width: 132.67px;
 }
 @media screen and (min-width: 992px) {
   .company-logo img {
@@ -58,7 +58,7 @@
 }
 
 .l-main-content {
-  border-top: $base-color-lt-gray;
+  border-top: #eaeaea;
   overflow: hidden;
 }
 
@@ -96,7 +96,6 @@
 
 .subtitle {
   color: #f0380f;
-  font-family: Helvetica Neue;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -170,7 +169,6 @@
 }
 
 .text-offer {
-  font-family: Helvetica Neue;
   font-size: 22px;
   font-weight: 500;
   line-height: 34px;
@@ -178,7 +176,6 @@
 }
 
 .text-price {
-  font-family: Helvetica Neue;
   font-size: 30px;
   font-weight: 500;
   line-height: 35px;
@@ -187,7 +184,6 @@
 }
 
 .text-second-price {
-  font-family: Helvetica Neue;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -200,7 +196,6 @@
 }
 
 .desc {
-  font-family: Helvetica Neue;
   font-size: 22px;
   font-weight: 500;
   line-height: 34px;
@@ -277,7 +272,6 @@
 }
 
 .subtext {
-  font-family: Helvetica Neue;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -435,6 +429,7 @@
 .modal-icon {
   height: 73px;
   width: 73px;
+  margin-bottom: 25px;
 }
 
 .modal-intro {
@@ -475,6 +470,6 @@
 }
 @media screen and (min-width: 992px) {
   .modal-body {
-    padding: 80px 106px;
+    padding: 32px 106px 80px 106px;
   }
 }/*# sourceMappingURL=core.css.map */
